@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Image src="/coolcar.jpeg" alt="car" width={850} height={500} style={{objectFit:"cover", borderRadius:"100px"}}/>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
